@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #172C61;
+  padding: 16px;
+  font-family: 'Bungee', cursive;
+  color: white;
+}
+
+header h1 {
+  font-size: 2.8em;
+  font-weight: normal;
+}
+
+header nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+header ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+header ul a:hover {
+  text-decoration: underline;
+  color: #DEE7F0;
+}
+
+.container {
+  max-width: 1288px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#contain {
+  max-width: 1288px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 25px;
+  margin-top: 50px;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+#h2main {
+  margin: 0px 0px 16px 0px;
+}
+
+#photos img {
+  height: 24px;
+  margin-left: 10px;
+  margin-top: 25px;
+}
+
+main h2, main h3 {
+  font-family: 'Bungee', cursive;
+  color: #3B3788;
+}
+
+main p {
+  font-family: 'Roboto', sans-serif;
+  color: rgba(25, 25, 112, 0.800)
+}
+
+form input, form textarea {
+  font-family: 'Roboto', sans-serif;
+}
+
+input:focus, textarea:focus {
+  outline-color: #172C61;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  padding: 8px;
+  width: 250px;
+  margin-top: 10px;
+  resize: none;
+}
+
+textarea {
+  width: 250px;
+}
+
+#submit {
+  font-family: 'Bungee', cursive;
+  color: white;
+  background-color: #172C61;
+}
+
+#fotos img {
+  display: inline;
+  height: 30px;
+  padding-right: 20px;
+}
+
+#titulo2 {
+  max-width: 1288px;
+  padding: 20px
+}
+
+.suporte {
+  max-width: 1288px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.suporte h3 {
+  margin-bottom: 20px;
+}
+
+.suporte p {
+  font-family: 'Roboto', sans-serif;
+  rgb(25, 25, 112)
+}
+
+.tela {
+  height: 100vh;
+}
+
+footer {
+  background-color: #172C61;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
